@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/holy_bible"
+    android:orientation="vertical"
+    tools:context="com.example.spqrapid.churchinventory.ChurchActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/overview"
+                android:text="@string/overview_string" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:orientation="vertical"
+                android:paddingLeft="4dp">
+
+                <EditText
+                    android:id="@+id/product_name"
+                    style="@style/product_name" />
+
+                <EditText
+                    android:id="@+id/product_price"
+                    style="@style/product_price" />
+
+                <EditText
+                    android:id="@+id/product_supplier"
+                    style="@style/supplier_name" />
+
+                <EditText
+                    android:id="@+id/supplier_email"
+                    style="@style/supplier_email" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+            <Button
+                android:id="@+id/product_minus"
+                style="@style/button_minus"
+                android:text="@string/button_minus_string" />
+
+            <EditText
+                android:id="@+id/product_quantity"
+                style="@style/quantity" />
+
+            <Button
+                android:id="@+id/product_plus"
+                style="@style/button_plus"
+                android:text="@string/button_plus_string" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+            <Button
+                android:id="@+id/insert_image"
+                style="@style/button_insert_image"
+                android:text="@string/button_insert_image" />
+
+            <ImageView
+                android:id="@+id/product_image"
+                style="@style/image_default" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

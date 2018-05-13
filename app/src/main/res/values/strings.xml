@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">ChurchInventory</string>
+
+    <!-- String for save button (menu_editor). -->
+    <string name="necessary">Necessary</string>
+    <!-- String for order button (menu_editor). -->
+    <string name="order_more">Order more... greedy</string>
+    <!-- String for delete button (menu_editor). -->
+    <string name="delete_product">Delete</string>
+
+    <!-- String for adding data (menu_inventory). -->
+    <string name="product_adding">Adding a product</string>
+
+    <!-- TextView overview (activity_editor). -->
+    <string name="overview_string">Overview</string>
+    <!-- Button minus (activity_editor). -->
+    <string name="button_minus_string">-</string>
+    <!-- Button plus (activity_editor). -->
+    <string name="button_plus_string">+</string>
+    <!-- Button insert image (activity_editor). -->
+    <string name="button_insert_image">Insert Image --> </string>
+
+    <!-- TextView (activity_main) -->
+    <string name="main_menu">Welcome to our church ! Please add items to your basket.</string>
+
+    <!-- TextView product name (list_item). -->
+    <string name="product_name"></string>
+    <!-- TextView product quantity (list_item). -->
+    <string name="product_quantity"></string>
+    <!-- TextView product price (list_item). -->
+    <string name="product_price"></string>
+
+    <!-- Add new item (activity_editor). -->
+    <string name="add_new_product">Add new item.</string>
+    <!-- String (activity_editor). -->
+    <string name="edit_selected_product">Edit selected product.</string>
+
+    <!-- String that informs the user that he did not save the information of the product. -->
+    <string name="unsaved_changes_dialog_msg">You havent saved your information. Do you want to continue?</string>
+    <!-- String that discards. -->
+    <string name="discard">Get me out.</string>
+    <!-- String that accepts -->
+    <string name="keep_editing">Keep editing</string>
+
+    <!-- String notification about email info. -->
+    <string name="order_message">You can also place a order by emailing us.</string>
+    <!-- String email. -->
+    <string name="email">email</string>
+
+    <!-- String accepting delete. -->
+    <string name="delete_accept">ACCEPT!</string>
+    <!-- String cancel alert. -->
+    <string name="cancel">cancel</string>
+</resources>
